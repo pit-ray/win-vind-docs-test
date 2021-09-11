@@ -34,7 +34,7 @@ disable_anchors: true
   </div>
 
   <div class="square">
-    <a href="defaults"">
+    <a href="defaults">
       <span class="site-masthead__button flex-max">
         <i class="fas fa-map flex-max flex-fa"></i>
         <p>Default mappings</p>
