@@ -50,13 +50,13 @@ ui:
     light: '#c8c8c8'
   header:
     #trianglify: true
-    trianglify: true
+    trianglify: false
     dark:
       color1: '#062a48'
       color2: '#304e67'
     light:
-      color1: '#a2aab3'
-      color2: '#f6f8fa'
+      color1: '#f6f8fa'
+      color2: '#dfe5eb'
 
   masthead:
     textcolor:

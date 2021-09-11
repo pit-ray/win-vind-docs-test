@@ -1,8 +1,8 @@
 {% if page.homepage %}
-    <h1 class="site-masthead__title mb-1">{{ page.description }}</h1>
+    <h2 class="site-masthead__title mb-1">{{ page.description }}</h2>
 
 {% else %}
-    <h1 class="site-masthead__title mb-1">{{ page.nav | default: site.name }}</h1>
+    <h2 class="site-masthead__title mb-1">{{ page.nav | default: site.name }}</h2>
     {% if page.description %}
         <p class="site-masthead__description mb-0">
             {{ page.description }}
