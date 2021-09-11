@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: notoc
 title: Options and Parameters
 disable_anchors: true
 show_in_menu: false

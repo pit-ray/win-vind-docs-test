@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: notoc
 title: Downloads
 disable_anchors: true
 ---
