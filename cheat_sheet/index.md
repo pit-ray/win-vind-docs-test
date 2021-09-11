@@ -27,10 +27,10 @@ disable_anchors: true
     </a>
   </div>
 
-  <div class="site-masthead__button flex-max grid-link-item" id="cs-def">
-    <a href="defaults">
+  <a href="defaults">
+    <div class="site-masthead__button flex-max grid-link-item" id="cs-def">
       <i class="fas fa-map flex-max flex-fa"></i>
       <p>Default mappings</p>
-    </a>
-  </div>
+    </div>
+  </a>
 </div>
