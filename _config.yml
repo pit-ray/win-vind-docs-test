@@ -29,17 +29,9 @@ links:
       icon: bug
       url: https://github.com/pit-ray/win-vind/issues
     - title: Community
-      icon: beer
-      brand: true
-      url: https://github.com/pit-ray/win-vind/discussions
-    - title: Pull requests
       icon: github
       brand: true
-      url: https://github.com/pit-ray/win-vind/pulls
-    - title: Contribute
-      icon: hammer_and_wrench
-      brand: true
-      url: https://github.com/pit-ray/win-vind/blob/master/CONTRIBUTING.md
+      url: https://github.com/pit-ray/win-vind/discussions
 
 dl_ins_32: https://github.com/pit-ray/win-vind/releases/download/v4.2.0/setup_win-vind_v4.2.0_32bit.exe.zip
 dl_zip_32: https://github.com/pit-ray/win-vind/releases/download/v4.2.0/win-vind_v4.2.0_32bit.zip
