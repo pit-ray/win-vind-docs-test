@@ -10,47 +10,45 @@ If you have any problems or requests, please post them on GitHub Issues.
 
 
 ## Installation
-- Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root. 
 
-   <div>
-     <a href="{{ site.dl_ins_32 }}">
-       <span class="site-masthead__button">
-         <i class="fas fa-download" />
-         <span>32bit Installer (.exe)</span>
-       </span>
-     </a>
+<ul>
+  <li>
+    <p>Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root.</p>
+    <a href="{{ site.dl_ins_32 }}">
+      <span class="site-masthead__button">
+        <i class="fas fa-download" /><span>32bit Installer (.exe)</span>
+      </span>
+    </a>
 
-     <a href="{{ site.dl_zip_32 }}">
-       <span class="site-masthead__button">
-         <i class="fas fa-download" />
-         <span>32bit Portable (.zip)</span>
-       </span>
-     </a>
+    <a href="{{ site.dl_zip_32 }}">
+      <span class="site-masthead__button">
+        <i class="fas fa-download" /><span>32bit Portable (.zip)</span>
+      </span>
+    </a>
 
-     <br>
+    <br>
 
-     <a href="{{ site.dl_ins_64 }}">
-       <span class="site-masthead__button">
-         <i class="fas fa-download" />
-         <span>64bit Installer (.exe)</span>
-       </span>
-     </a>
+    <a href="{{ site.dl_ins_64 }}">
+      <span class="site-masthead__button">
+        <i class="fas fa-download" /><span>64bit Installer (.exe)</span>
+      </span>
+    </a>
 
-     <a href="{{ site.dl_zip_64 }}">
-       <span class="site-masthead__button">
-         <i class="fas fa-download" />
-         <span>64bit Portable (.zip)</span>
-       </span>
-     </a>
-   </div>
+    <a href="{{ site.dl_zip_64 }}">
+      <span class="site-masthead__button">
+        <i class="fas fa-download" /><span>64bit Portable (.zip)</span>
+      </span>
+    </a>
+  </li>
 
-- When you run win-vind.exe for the first time, it will start in Insert mode, so you may not know if it is working, but if you see the icon in the task tray, it is working properly.  
-
-   <p align="center">
-   <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/taskbar.jpg?raw=true" width=500 >  
-   <p align="center">Like this</p>
-   </p>
-
+  <li>
+    <p>When you run win-vind.exe for the first time, it will start in Insert mode, so you may not know if it is working, but if you see the icon in the task tray, it is working properly.</p>
+    <p align="center">
+      <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/taskbar.jpg?raw=true" width=500 >  
+      <p align="center">Like this</p>
+    </p>
+  </li>
+</ul>
 
 ## Note 
 - `:exit` is the recommended termination.
