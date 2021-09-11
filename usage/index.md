@@ -4,34 +4,23 @@ title: Usage - win-vind
 nav: Usage
 disable_anchors: true
 ---
-This software only supports Windows 10 on real machines. Therefore, it may not work on older Windows or virtual environments such as Wine or Virtual Box.  
+This software only supports Windows 10 or Windows 11 on real machines. Therefore, it may not work on older Windows or virtual environments such as Wine or Virtual Box.  
 
 If you have any problems or requests, please post them on GitHub Issues.  
 
 
 ## Installation
 - Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root.  
-<!--
-       {% include _includes/masthead/button.html
-           url={{ site.dl_ins_32 }}
-           icon=download
-           title=Download 32bit Installer
-       %}
---!>
-
-        {% for link in site.links.homepage %}
-            {% include masthead/button.html
-                   url=link.url
-                   icon=link.icon
-                   title=link.title
-                   brand=link.brand
-            %}
-        {% endfor %}
-
-   - [Download 32bit installer (.exe)]({{ site.dl_ins_32 }})
-   - [Download 32bit potable (.zip)]({{ site.dl_zip_32 }})
-   - [Download 64bit installer (.exe)]({{ site.dl_ins_64 }})
-   - [Download 64bit potable (.zip)]({{ site.dl_zip_64 }})
+  
+   <div class="site-masthead__button">
+       <a href="{{ site.dl_ins_32 }}">
+           <i class="fas fa-download"></i>
+           <span>32bit Installer</span>
+       </a>
+   </div>
+   - [32bit Potable]({{ site.dl_zip_32 }})
+   - [64bit Installer]({{ site.dl_ins_64 }})
+   - [64bit Potable]({{ site.dl_zip_64 }})
 
 - When you run win-vind.exe for the first time, it will start in Insert mode, so you may not know if it is working, but if you see the icon in the task tray, it is working properly.  
 
