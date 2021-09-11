@@ -30,8 +30,9 @@ links:
     - title: Issues
       icon: bug
       url: https://github.com/pit-ray/win-vind/issues
+
     - title: Community
-      icon: alarm
+      icon: comments
       brand: true
       url: https://github.com/pit-ray/win-vind/discussions
 
