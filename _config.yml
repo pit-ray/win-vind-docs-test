@@ -66,11 +66,6 @@ ui:
       homepage: 'center'
       page: 'left'
 
-social:
-  github:
-    user: pit-ray
-    repo: win-vind
-
 analytics:
   google: UA-121829043-2
 

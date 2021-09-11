@@ -26,8 +26,5 @@ descripption: "Document of win-vind"
 
 <img src="imgs/4xxdemo.gif?raw=true" title="Demo" width="624">
 
-## GitHub
-[![pit-ray/win-vind - GitHub](https://gh-card.dev/repos/pit-ray/win-vind.svg)](https://github.com/pit-ray/win-vind)
-
 ## License
 This software is provided by [MIT License](https://github.com/pit-ray/win-vind/blob/master/LICENSE.txt).  
