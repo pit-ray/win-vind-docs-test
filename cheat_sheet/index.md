@@ -33,8 +33,10 @@ disable_anchors: true
     </a>
   </div>
 
-  <a class="site-masthead__button flex-max square" id="cs-def">
-    <i class="fas fa-map flex-max flex-fa"></i>
-    <p>Default mappings</p>
-  </a>
+  <div class="site-masthead__button flex-max square" id="cs-def">
+    <a href="defaults">
+      <i class="fas fa-map flex-max flex-fa"></i>
+      <p>Default mappings</p>
+    </a>
+  </div>
 </div>
