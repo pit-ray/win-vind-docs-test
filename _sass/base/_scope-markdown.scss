@@ -143,7 +143,8 @@
         font-size: 8vw ;
     }
 
-    #cs-container {
+    .cs-container {
+        position: absolute;
         display: grid;
         grid-template-rows: 50% 50%;
         grid-template-columns: 50% 50%;
@@ -152,16 +153,16 @@
             "cs-keywd cs-def";
     }
 
-    #cs-func {
+    .cs-func {
         grid-area: cs-func;
     }
-    #cs-opt {
+    .cs-opt {
         grid-area: cs-opt;
     }
-    #cs-keywd {
+    .cs-keywd {
         grid-area: cs-keywd;
     }
-    #cs-def {
+    .cs-def {
         grid-area: cs-def;
     }
 }
