@@ -2,6 +2,8 @@ remote_theme: allejo/jekyll-docs-theme@v1.0.0
 
 name: win-vind
 
+home_navigation_name: Home
+
 project:
   version: 4.2.0
   download_url: https://github.com/pit-ray/win-vind/releases/latest
