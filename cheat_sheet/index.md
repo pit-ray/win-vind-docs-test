@@ -28,7 +28,7 @@ disable_anchors: true
     <a href="keywords">
       <span class="site-masthead__button flex-max">
         <i class="fas fa-book flex-max flex-fa"></i>
-        <p>Keywords for writing config</p>
+        <p>Keywords for settings</p>
       </span>
     </a>
   </div>
