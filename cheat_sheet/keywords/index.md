@@ -7,7 +7,7 @@ description: Keywords for writing .vindrc
 ---
 All keywords in win-vind are not case-sensitive.  
 
-## Mode Prefix
+### Mode Prefix
 
 |Keyword|Meanings|
 |:---:|:---:|
@@ -19,7 +19,7 @@ All keywords in win-vind are not case-sensitive.
 |r|Resident Mode|
 |c|Command Mode|
 
-## Specific Keyword  
+### Specific Keyword  
 
 |Keyword|Meanings|
 |:---:|:---|
@@ -27,7 +27,7 @@ All keywords in win-vind are not case-sensitive.
 |`<any>`|It is an optional string. If you include it into a command, all keywords after that are considered to be matching.|
 
 
-## Specific Ascii Key Code  
+### Specific Ascii Key Code  
 
 |Key Code|Meanings|
 |:---:|:---|
@@ -37,7 +37,7 @@ All keywords in win-vind are not case-sensitive.
 |`<lt>`|Ascii code '&lt;'|
 
  
-## System Key Code  
+### System Key Code  
 
 |Key Code|Meanings|
 |:---:|:---|
@@ -115,3 +115,8 @@ All keywords in win-vind are not case-sensitive.
 |`<pause>`|Pause Key, Break Key|
 |`<scroll>`|Scroll Key, Scroll Lock Key|
 |`<snapshot>`|Snapshot Key, Print Screen Key, Sys Rq Key|
+
+<br>
+<br>
+<br>
+<br>
