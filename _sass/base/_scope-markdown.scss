@@ -147,9 +147,9 @@
         tr th :last-child, tr td :last-child {
             margin-bottom: 0;
         }
-    }
 
-    table tr:nth-child(2n) {
-        background-color: #f8f8f8;
+        td[rowspan]:nth-child(2n) {
+            background-color: #f8f8f8;
+        }
     }
 }
