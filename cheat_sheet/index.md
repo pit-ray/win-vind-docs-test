@@ -5,12 +5,6 @@ nav: Cheat Sheet
 disable_anchors: true
 ---
 
-- [All supported functions](functions)
-- [Options and parameters](options)
-- [Keyword lists for writing .vindrc](keywords)
-- [Default mappings](defaults)
-
-
 <div class="square-container">
   <div class="square">
     <a href="functions">
@@ -22,19 +16,29 @@ disable_anchors: true
   </div>
 
   <div class="square">
-    <a href="functions">
+    <a href="options">
       <span class="site-masthead__button flex-max">
-        <i class="fas fa-box-open fa flex-max flex-fa"></i>
-        <p>All supported functions</p>
+        <i class="fas fa-tools flex-max flex-fa"></i>
+        <p>Options and parameters</p>
       </span>
     </a>
   </div>
 
   <div class="square">
-    3
+    <a href="keywords">
+      <span class="site-masthead__button flex-max">
+        <i class="fas fa-book flex-max flex-fa"></i>
+        <p>Keywords for writing config</p>
+      </span>
+    </a>
   </div>
 
   <div class="square">
-    4
+    <a href="defaults"">
+      <span class="site-masthead__button flex-max">
+        <i class="fas fa-map flex-max flex-fa"></i>
+        <p>Default mappings</p>
+      </span>
+    </a>
   </div>
 </div>
