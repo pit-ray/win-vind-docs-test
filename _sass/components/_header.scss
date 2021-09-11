@@ -19,7 +19,13 @@
     }
 }
 
-.nav-logo {
-  height: auto ;
-  max-width: 30px ;
+.nav-logo img {
+  height: auto;
+  max-width: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.nav-logo-text span {
+  display: inline-block;
 }
