@@ -47,17 +47,23 @@ ui:
     dark: '#5f5f5f'
     light: '#c8c8c8'
   header:
-    trianglify: true
+    #trianglify: true
+    trianglify: false
     dark:
       color1: '#062a48'
       color2: '#304e67'
+        #light:
+        #color1: '#06121c'
+        #color2: '#e63b02'
     light:
-      color1: '#06121c'
-      color2: '#e63b02'
+      color1: '#c8c8c8'
+      color2: '#c8c8c8'
+
   masthead:
     color:
       dark: '#fff'
-      light: '#e3e3e3'
+        #light: '#e3e3e3'
+      light: '#2e2e2e'
     align:
       homepage: 'center'
       page: 'left'
