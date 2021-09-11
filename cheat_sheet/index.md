@@ -9,7 +9,7 @@ disable_anchors: true
   <div class="square" id="cs-func">
     <a href="functions">
       <span class="site-masthead__button flex-max">
-        <i class="fas fa-box-open fa flex-max flex-fa"></i>
+        <i class="fas fa-box-open flex-max flex-fa"></i>
         <p>All supported functions</p>
       </span>
     </a>
@@ -33,12 +33,8 @@ disable_anchors: true
     </a>
   </div>
 
-  <div class="square" id="cs-def">
-    <a href="defaults">
-      <span class="site-masthead__button flex-max">
-        <i class="fas fa-map flex-max flex-fa"></i>
-        <p>Default mappings</p>
-      </span>
-    </a>
-  </div>
+  <a class="site-masthead__button flex-max square" id="cs-def">
+    <i class="fas fa-map flex-max flex-fa"></i>
+    <p>Default mappings</p>
+  </a>
 </div>
