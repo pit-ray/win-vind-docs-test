@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Functions
+title: Functions - win-vind
+nav: Functions
 show_in_menu: false
 disable_anchors: true
 parent: Cheat Sheet

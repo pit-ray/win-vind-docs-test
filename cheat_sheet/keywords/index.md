@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Keywords
+title: Keywords - win-vind
+nav: Keywords
 show_in_menu: false
 disable_anchors: true
 description: Keywords for writing .vindrc

@@ -2,7 +2,8 @@
 layout: page
 show_in_menu: false
 disable_anchors: true
-title: Defaults
+title: Defaults - win-vind
+nav: Defaults
 description: Default bindings lists
 ---
 

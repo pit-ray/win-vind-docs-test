@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Options and Parameters
+title: Options and Parameters - win-vind
+nav: Options and Parameters
 disable_anchors: true
 show_in_menu: false
 description: parameters and useful extensions

@@ -1,6 +1,7 @@
 ---
 layout: notoc
-title: Cheat Sheet
+title: Cheat Sheet - win-vind
+nav: Cheat Sheet
 disable_anchors: true
 ---
 

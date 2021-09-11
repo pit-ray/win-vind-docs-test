@@ -18,7 +18,7 @@
 
         <nav class="navbar-collapse collapse" role="navigation" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                {% assign sorted_pages = site.pages | sort: "title" %}
+                {% assign sorted_pages = site.pages | sort: "nav" %}
                 {% for p in sorted_pages %}
                     {% assign is_homepage = false %}
                     {% if p.homepage == true or p.isHome == true %}
@@ -32,13 +32,13 @@
                         {% assign show_in_menu = false %}
                     {% endif %}
 
-                    {% if is_homepage != true and show_in_menu == true and p.title %}
-                        <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+                    {% if is_homepage != true and show_in_menu == true and p.nav %}
+                        <li class="nav-item {% if page.nav == p.nav %}active{% endif %}">
                             <a
                                 class="nav-link"
                                 href="{{ p.url | relative_url }}"
                             >
-                                {{ p.title }}
+                                {{ p.nav }}
                             </a>
                         </li>
                     {% endif %}
@@ -52,7 +52,7 @@
                             href="{{ p.url }}"
                         >
                             {% include fa-icon.html icon=p.icon brand=p.brand %}
-                            {{ p.title }} - {{ site.name}}
+                            {{ p.title }}
                         </a>
                     </li>
                 {% endfor %}

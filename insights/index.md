@@ -1,6 +1,7 @@
 ---
 layout: notoc
-title: Insights
+title: Insights - win-vind
+nav: Insights
 show_in_menu: false
 disable_anchors: true
 ---  
