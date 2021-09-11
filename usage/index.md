@@ -84,7 +84,7 @@ The following commands are supported. By the way, `{` and `}` themselves are not
 
 <table>
   <tr>
-  <th>Command</th>
+  <th align="center">Command</th>
   <th>Syntax</th>
   <th>Note</th>
   </tr>

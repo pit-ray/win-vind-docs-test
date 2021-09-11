@@ -50,8 +50,8 @@
 
     &:hover {
         @include themer(background-color, (
-            'dark': $site-ui-masthead-color-dark,
-            'light': $site-ui-masthead-color-light,
+            'dark': $site-ui-border_color-dark,
+            'light': $site-ui-border_color-light,
         ));
         @include themer(color, (
             'dark': $site-ui-brand-dark,

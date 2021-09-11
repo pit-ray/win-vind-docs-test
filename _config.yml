@@ -65,7 +65,7 @@ ui:
       light: '#c8c8c8'
     color:
       dark: '#fff'
-      light: '#e3e3e3'
+      light: '#4f4f4f'
     align:
       homepage: 'center'
       page: 'left'

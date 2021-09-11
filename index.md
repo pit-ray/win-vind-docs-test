@@ -2,11 +2,10 @@
 layout: full
 homepage: true
 disable_anchors: true
-title: Home - win-vind
-descripption: "Document of win-vind"
+title: Home
+description: Vim Key Binder for Windows
 ---
 
-# Vim Key Binder for Windows
 
 ## Description
 **win-vind** provides a lightweight hybrid UI system of CUI and GUI for Windows. And everything is inspired by Vim and its plugins. Simply put, it is a Vim-oriented toy box consisting of various useful features.
