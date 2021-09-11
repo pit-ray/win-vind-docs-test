@@ -15,7 +15,7 @@ disable_anchors: true
   <div class="square">
     <a href="functions">
       <span class="site-masthead__button square-contents">
-        <i class="fas fa-box-open fa-10x"></i>
+        <i class="fas fa-box-open fa-10x square-contents"></i>
         <p>All supported functions</p>
       </span>
     </a>
@@ -24,7 +24,7 @@ disable_anchors: true
   <div class="square">
     <a href="functions">
       <span class="site-masthead__button square-contents">
-        <i class="fas fa-box-open fa-10x"></i>
+        <i class="fas fa-box-open fa-10x square-contents"></i>
         <p>All supported functions</p>
       </span>
     </a>
