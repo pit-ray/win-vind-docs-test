@@ -239,6 +239,8 @@ description: Default bindings lists
 |`o`|**to_insert_nlbelow**|
 |`O`|**to_insert_nlabove**|
 
+<br>
+
 **Move**  
 
 |Bindings|ID|
@@ -252,7 +254,9 @@ description: Default bindings lists
 |`W`|**move_caret_nonblank_word_forward**|
 |`B`|**move_caret_nonblank_word_backward**|
 
-**Jump**
+<br>
+
+**Jump**  
 
 |Bindings|ID|
 |:---:|:---:|
@@ -261,7 +265,10 @@ description: Default bindings lists
 |`gg`|**jump_caret_to_BOF**|
 |`G`|**jump_caret_to_EOF**|
 
-**Edit**
+
+<br>
+
+**Edit**  
 
 |Bindings|ID|
 |:---:|:---:|
@@ -325,7 +332,9 @@ description: Default bindings lists
 |`W`|**move_caret_nonblank_word_forward**|
 |`B`|**move_caret_nonblank_word_backward**|
 
-**Jump** 
+<br>
+
+**Jump**  
 
 |Bindings|ID|
 |:---:|:---:|
@@ -334,8 +343,9 @@ description: Default bindings lists
 |`gg`|**jump_caret_to_BOF**|
 |`G`|**jump_caret_to_EOF**|
 
+<br>
 
-**Edit**
+**Edit**  
 
 |Bindings|ID|
 |:---:|:---:|
