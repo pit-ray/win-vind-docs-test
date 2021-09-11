@@ -33,7 +33,6 @@ links:
 
     - title: Community
       icon: comments
-      brand: true
       url: https://github.com/pit-ray/win-vind/discussions
 
 dl_ins_32: https://github.com/pit-ray/win-vind/releases/download/v4.2.0/setup_win-vind_v4.2.0_32bit.exe.zip
