@@ -11,6 +11,8 @@
 
     h1, h2, h3,
     h4, h5, h6 {
+        opacity: 0.9;
+
         .heading-anchor {
             border-bottom: 0;
             font-size: 0.8em;
@@ -20,7 +22,7 @@
 
         &:hover {
             .heading-anchor {
-                opacity: 1;
+                opacity: 0.9;
 
                 &:active,
                 &:focus,
