@@ -1,10 +1,12 @@
 ---
-layout: notoc
+layout: page
 title: Options and Parameters
 disable_anchors: true
 show_in_menu: false
 description: parameters and useful extensions
 ---
+
+## Parameter ID and Defaults 
 
 |ID|Type|Default|Note|
 |:---:|:---:|:---:|:---|
