@@ -12,12 +12,12 @@ If you have any problems or requests, please post them on GitHub Issues.
 ## Installation
 - Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root. 
 
-    <a href="{{ site.dl_ins_32 }}">
-      <div class="site-masthead__button">
-        <i class="fas fa-download"></i>
-        <span>32bit Installer (.exe)</span>
-      </div>
-    </a>
+   <a href="{{ site.dl_ins_32 }}">
+     <div class="site-masthead__button">
+       <i class="fas fa-download"></i>
+       <span>32bit Installer (.exe)</span>
+     </div>
+   </a>
 
    <a href="{{ site.dl_zip_32 }}">
      <div class="site-masthead__button">
