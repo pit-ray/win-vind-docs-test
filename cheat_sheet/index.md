@@ -5,7 +5,7 @@ nav: Cheat Sheet
 disable_anchors: true
 ---
 
-<div class="grid-link-container" id="cs-container">
+<div id="cs-container">
   <div class="site-masthead__button flex-max grid-link-item" id="cs-func">
     <a href="functions">
         <i class="fas fa-box-open flex-max flex-fa"></i>
