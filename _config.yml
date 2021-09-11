@@ -56,14 +56,17 @@ ui:
         #color1: '#06121c'
         #color2: '#e63b02'
     light:
-      color1: '#c8c8c8'
-      color2: '#c8c8c8'
+      color1: '#f6f8fa'
+      color2: '#f6f8fa'
 
   masthead:
+    textcolor:
+      dark: 'white'
+      light: '#c8c8c8'
+
     color:
       dark: '#fff'
-        #light: '#e3e3e3'
-      light: '#2e2e2e'
+      light: '#e3e3e3'
     align:
       homepage: 'center'
       page: 'left'
