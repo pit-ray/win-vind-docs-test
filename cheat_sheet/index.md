@@ -15,14 +15,19 @@ disable_anchors: true
   <div class="square">
     <a href="functions">
       <span class="site-masthead__button">
-        <div class="square-contents"><i class="fas fa-box-open fa-10x"></i></div>
+        <i class="fas fa-box-open fa-10x square-contents"></i>
         <p>All supported functions</p>
       </span>
     </a>
   </div>
 
   <div class="square">
-    2
+    <a href="functions">
+      <span class="site-masthead__button">
+        <i class="fas fa-box-open fa-10x square-contents"></i>
+        <p>All supported functions</p>
+      </span>
+    </a>
   </div>
 
   <div class="square">
