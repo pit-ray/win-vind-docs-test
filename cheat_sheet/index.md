@@ -13,7 +13,12 @@ disable_anchors: true
 
 <div class="square-container">
   <div class="square">
-    1
+    <a href="functions">
+      <span class="site-masthead__button">
+        <p><i class="fas fa-box-open" class="square-contents"></i></p>
+        <p>All supported functions</p>
+      </span></span>]
+    </a>
   </div>
 
   <div class="square">

@@ -55,8 +55,8 @@
     }
 
     h3, h4, h5, h6 {
-        font-size: 1.5rem;
-        font-weight: bold;
+        font-size: 1.4rem;
+        font-weight: normal;
         margin-bottom: 0.75rem;
         margin-top: 1.75rem;
     }
@@ -130,5 +130,10 @@
         width: 50%;
         height: 50%;
         text-align: center;
+    }
+
+    .square-contents {
+        width: 100%;
+        height: auto;
     }
 }
