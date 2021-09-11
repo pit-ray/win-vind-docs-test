@@ -29,7 +29,7 @@ links:
       icon: bug
       url: https://github.com/pit-ray/win-vind/issues
     - title: Community
-      icon: beers
+      icon: beer
       brand: true
       url: https://github.com/pit-ray/win-vind/discussions
     - title: Pull requests
