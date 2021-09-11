@@ -10,17 +10,37 @@ If you have any problems or requests, please post them on GitHub Issues.
 
 
 ## Installation
-- Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root.  
-  
-   <div class="site-masthead__button">
-       <a href="{{ site.dl_ins_32 }}">
-           <i class="fas fa-download"></i>
-           <span>32bit Installer</span>
-       </a>
-   </div>
-   - [32bit Potable]({{ site.dl_zip_32 }})
-   - [64bit Installer]({{ site.dl_ins_64 }})
-   - [64bit Potable]({{ site.dl_zip_64 }})
+- Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root. 
+
+    <a href="{{ site.dl_ins_32 }}">
+      <div class="site-masthead__button">
+        <i class="fas fa-download"></i>
+        <span>32bit Installer (.exe)</span>
+      </div>
+    </a>
+
+   <a href="{{ site.dl_zip_32 }}">
+     <div class="site-masthead__button">
+       <i class="fas fa-download"></i>
+       <span>32bit Portable (.zip)</span>
+     </div>
+   </a>
+
+   <br>
+
+   <a href="{{ site.dl_ins_64 }}">
+     <div class="site-masthead__button">
+       <i class="fas fa-download"></i>
+       <span>64bit Installer (.exe)</span>
+     </div>
+   </a>
+
+   <a href="{{ site.dl_zip_64 }}">
+     <div class="site-masthead__button">
+       <i class="fas fa-download"></i>
+       <span>64bit Portable (.zip)</span>
+     </div>
+   </a>
 
 - When you run win-vind.exe for the first time, it will start in Insert mode, so you may not know if it is working, but if you see the icon in the task tray, it is working properly.  
 
