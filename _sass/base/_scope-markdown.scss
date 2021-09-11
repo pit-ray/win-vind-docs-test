@@ -78,42 +78,6 @@
         max-width: 100%;
     }
 
-    /*
-    table {
-        width: 100%;
-
-        table-layout: fixed;
-
-        thead,
-        tr {
-            @include themer(border-bottom-color, (
-                'dark': $site-ui-border-color-dark,
-                'light': $site-ui-border-color-light,
-            ));
-
-            border-bottom-style: solid;
-        }
-
-        thead {
-            border-bottom-width: 2px;
-        }
-
-        tr {
-            border-bottom-width: 1px;
-
-            &:last-child {
-                border-bottom: 0;
-            }
-        }
-
-        td,
-        th {
-            padding: 0.5rem 0.25rem;
-            overflow-wrap: break-word;
-        }
-    }
-    */
-
     table {
         width: 100%;
 
@@ -148,7 +112,7 @@
             margin-bottom: 0;
         }
 
-        td[rowspan]:nth-child(2n) {
+        tr:nth-child(2n) {
             background-color: #f8f8f8;
         }
     }

@@ -83,78 +83,19 @@ The keyset syntax uses the same expression as in Vim, where keys are connected b
 
 The following commands are supported. By the way, `{` and `}` themselves are not part of the syntax.  
 
-<table>
-  <tr>
-  <th align="center">Command</th>
-  <th>Syntax</th>
-  <th>Note</th>
-  </tr>
-
-  <tr>
-  <td align="center" rowspan="3"><code>set</code></td>
-  <td width=350><code>set {option}</code></td>
-  <td>Set the value of the option to <strong>true</strong>.</td>
-  </tr>
-
-  <tr>
-  <td><code>set no{option}</code></td>
-  <td>Set the value of the option to <strong>false</strong>.</td>
-  </tr>
-
-  <tr>
-  <td><code>set {option} = {val}</code></td>
-  <td>Set a value of the option. The value can be a string or a number that allows floating points. The string does not need quotation marks, and any character after the non-white character will be handled as the value. White spaces at both ends of the equals sign are ignored.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>map</code></td>
-  <td><code>{mode}map {in-key} {out-key}</code></td>
-  <td>It performs <strong>key2key</strong> mapping with low-level. The keymap influences Windows as a whole, not just the win-vind scope. Therefore, use it with caution.</td>
-  </tr>
-
-  <tr>
-  <td align="center" rowspan="2"><code>noremap</code></td>
-  <td><code>{mode}noremap {in-cmd} {func-id}</code></td>
-  <td>It defines the map to call the function.</td>
-  </tr>
-
-  <tr>
-  <td><code>{mode}noremap {in-keyset} {out-keyset}</code></td>
-  <td>It performs <strong>keyset2keyset</strong> mapping in win-vind scope. However, since the <code>{func-id}</code> definition has higher priority than its syntax, it may result in exactly one remap. For example <code>inoremap k move_cursor_left</code> and <code>inoremap f k</code> then <code>f</code> will be mapped to <code>move_cursor_left</code> instead of <code>move_cursor_up</code>.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>unmap</code></td>
-  <td><code>{mode}unmap {in-cmd}</code></td>
-  <td>Remove the map corresponding to the <code>{in-cmd}</code>.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>mapclear</code></td>
-  <td><code>{mode}mapclear</code></td>
-  <td>Delete all maps.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>command</code></td>
-  <td><code>command {in-cmd} {func-id}</code></td>
-  <td>It defines the command to call the function.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>delcommand</code></td>
-  <td><code>delcommand {in-cmd}</code></td>
-  <td>Remove the command corresponding to the <code>{in-cmd}</code>.</td>
-  </tr>
-
-  <tr>
-  <td align="center"><code>comclear</code></td>
-  <td><code>comclear</code></td>
-  <td>Delete all commands.</td>
-  </tr>
-</table>
-
-<hr>  
+|**Syntax**|**Effect**|
+|:---|:---|
+|`set {option}`|Set the value of the option to **true**.|
+|`set no{option}`|Set the value of the option to **false**.|
+|`set {option} = {val}`|Set a value of the option. The value can be a string or a number that allows floating points. The string does not need quotation marks, and any character after the non-white character will be handled as the value. White spaces at both ends of the equals sign are ignored.|
+|`{mode}map {in-key} {out-key}`|It performs **key2key** mapping with low-level. The keymap influences Windows as a whole, not just the win-vind scope. Therefore, use it with caution.|
+|`{mode}noremap {in-cmd} {func-id}`|It defines the map to call the function.|
+|`{mode}noremap {in-keyset} {out-keyset}`|It performs **keyset2keyset** mapping in win-vind scope. However, since the `{func-id}` definition has higher priority than its syntax, it may result in exactly one remap. For example `inoremap k move_cursor_left` and `inoremap f k` then `f` will be mapped to `move_cursor_left` instead of `move_cursor_up`.|
+|`{mode}unmap {in-cmd}`|Remove the map corresponding to the `{in-cmd}`.|
+|`{mode}mapclear`|Delete all maps.|
+|`command {in-cmd} {func-id}`|It defines the command to call the function.|
+|`delcommand {in-cmd}`|Remove the command corresponding to the `{in-cmd}`.|
+|`comclear`|delete all commands.|
 
 `{mode}` is the [Mode Prefix](https://pit-ray.github.io/win-vind/cheat_sheet/keyword_lists/#mode-prefix). And only **UTF-8** format is supported for `.vindrc`.  
 
