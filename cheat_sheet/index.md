@@ -6,26 +6,26 @@ disable_anchors: true
 ---
 
 <div id="cs-container">
-  <div class="site-masthead__button flex-max grid-link-item" id="cs-func">
-    <a href="functions">
+  <a href="functions">
+    <div class="site-masthead__button flex-max grid-link-item" id="cs-func">
         <i class="fas fa-box-open flex-max flex-fa"></i>
         <p>All supported functions</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="site-masthead__button flex-max grid-link-item" id="cs-opt">
-    <a href="options">
+  <a href="options">
+    <div class="site-masthead__button flex-max grid-link-item" id="cs-opt">
         <i class="fas fa-tools flex-max flex-fa"></i>
         <p>Options and parameters</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="site-masthead__button flex-max grid-link-item" id="cs-keywd">
-    <a href="keywords">
+  <a href="keywords">
+    <div class="site-masthead__button flex-max grid-link-item" id="cs-keywd">
         <i class="fas fa-book flex-max flex-fa"></i>
         <p>Keywords for settings</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
   <a href="defaults">
     <div class="site-masthead__button flex-max grid-link-item" id="cs-def">
