@@ -145,7 +145,7 @@
     }
 
     .flex-fa {
-        font-size: 12vw ;
+        font-size: 8vw ;
     }
 
     #cs-container {
@@ -156,17 +156,17 @@
             "cs-func  cs-opt"
             "cs-keywd cs-def";
     }
+}
 
-    #cs-func {
-        grid-area: cs-func;
-    }
-    #cs-opt {
-        grid-area: cs-opt;
-    }
-    #cs-keywd {
-        grid-area: cs-keywd;
-    }
-    #cs-def {
-        grid-area: cs-def;
-    }
+#cs-func {
+    grid-area: cs-func;
+}
+#cs-opt {
+    grid-area: cs-opt;
+}
+#cs-keywd {
+    grid-area: cs-keywd;
+}
+#cs-def {
+    grid-area: cs-def;
 }
