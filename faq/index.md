@@ -3,6 +3,7 @@ layout: page
 disable_anchors: true
 title: FAQ - win-vind
 nav: FAQ
+icon: question
 description: frequently asked questions and these answers
 ---
 If you have some questions, please send me.
