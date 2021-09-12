@@ -2,6 +2,7 @@
 layout: notoc
 title: Downloads - win-vind
 nav: Downloads
+icon: download
 disable_anchors: true
 ---
 

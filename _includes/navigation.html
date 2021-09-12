@@ -41,6 +41,12 @@
                                 class="nav-link"
                                 href="{{ p.url | relative_url }}"
                             >
+                                {% if p.icon %}
+                                    {% include fa-icon.html
+                                         icon=p.icon
+                                    %}
+                                {% endif %}
+
                                 {{ p.nav }}
                             </a>
                         </li>
