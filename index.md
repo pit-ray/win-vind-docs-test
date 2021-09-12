@@ -4,6 +4,7 @@ homepage: true
 disable_anchors: true
 title: Home - win-vind
 nav: Home
+icon: home
 description: Vim Key Binder for Windows
 ---
 
