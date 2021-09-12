@@ -2,7 +2,7 @@
     <div class="container">
       <a class="navbar-brand" href="{{ '/' | relative_url }}">
         {% for p in site.pages %}
-            {% if p.homepage != false and p.isHome != false %}
+            {% if p.homepage != false %}
                 {% continue %}
             {% endif %}
 
