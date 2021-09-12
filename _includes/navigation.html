@@ -1,23 +1,30 @@
 <header class="navbar navbar-expand-md navbar-custom" id="top">
     <div class="container">
       <a class="navbar-brand" href="{{ '/' | relative_url }}">
-        {% for p in site.pages %}
-            {% if p.homepage != false %}
-                {% continue %}
-            {% endif %}
+          {% for p in site.pages %}
+              {% if p.homepage != false %}
+                  {% continue %}
+              {% endif %}
 
-            {% if p.icon %}
-                {% include fa-icon.html
-                     icon=p.icon
-                %}
-                <span class="nav-logo-text">{{ p.nav }}</span>
-            {% else %}
-                <img class="nav-logo" src="{{ site.logo | relative_url }}" />
-                <span class="nav-logo-text">{{ site.name }}</span>
-            {% endif %}
+              {% if p.icon %}
+                  {% include fa-icon.html
+                       icon=p.icon
+                  %}
+                  <span class="nav-logo-text">{{ p.nav }}</span>
+              {% else %}
+                  <img class="nav-logo" src="{{ site.logo | relative_url }}" />
+                  <span class="nav-logo-text">{{ site.name }}</span>
+              {% endif %}
 
-            {% break %}
-        {% endfor %}
+              {% break %}
+          {% endfor %}
+
+          {% if site.icon %}
+              {% include fa-icon.html
+                   icon=site.icon
+              %}
+              <span class="nav-logo-text">{{ site.nav }}</span>
+          {% else %}
       </a>
 
         <button
