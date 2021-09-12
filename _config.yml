@@ -53,8 +53,10 @@ ui:
       color1: '#062a48'
       color2: '#304e67'
     light:
-      color1: '#f6f8fa'
-      color2: '#f6f8fa'
+      #color1: '#f6f8fa'
+      #color2: '#f6f8fa'
+      color1: '#fff'
+      color2: '#fff'
 
   masthead:
     color:
