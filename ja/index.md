@@ -1,9 +1,8 @@
 ---
 layout: full
-homepage: true
 disable_anchors: true
 title: ホーム - win-vind
-nav: x-ホーム
+nav: ホーム
 icon: home
 lang: ja
 description: Vim Key Binder for Windows
