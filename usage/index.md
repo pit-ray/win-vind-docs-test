@@ -7,7 +7,7 @@ disable_anchors: true
 ---
 This software only supports Windows 10 or Windows 11 on real machines. Therefore, it may not work on older Windows or virtual environments such as Wine or Virtual Box.  
 
-If you have any problems or requests, please post them on GitHub Issues.  
+If you have any problems or requests, please post them on [GitHub Issues](https://github.com/pit-ray/win-vind/issues).  
 
 
 ## Installation
@@ -77,14 +77,15 @@ After the boot, win-vind will be in **Insert Mode**. Let's make transitions of m
 
 
 
-### 3. Customize Options and Maps
+### 3. Customize Options and Maps  
+
 win-vind uses **Run Commands** style configuration method. If you've ever written a `.vimrc`, it's easy to make it your win-vind.  Generally, there are three levels of key mapping: **key2key**, **keyset2keyset**, and **cmd2cmd**. **key2key** maps one key to one key. **keyset2keyset** maps a keyset to a keyset(e.g. `c-s` to `<m-h>`). **cmd2cmd** performs sequential mapping (e.g. `qq` to `<c-w>e`).  
 
 The keyset syntax uses the same expression as in Vim, where keys are connected by `-` between `<` and `>`. However, there is no limit to the number of combinations, and you can connect as many as you like. (e.g. `<Esc-b-c-a-d>`).  
 
 The following commands are supported. By the way, `{` and `}` themselves are not part of the syntax.  
 
-|**Syntax**|**Effect**|
+|**Syntax**|**Effects**|
 |:---|:---|
 |`set {option}`|Set the value of the option to **true**.|
 |`set no{option}`|Set the value of the option to **false**.|
