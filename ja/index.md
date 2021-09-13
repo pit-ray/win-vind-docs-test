@@ -5,6 +5,7 @@ disable_anchors: true
 title: ホーム - win-vind
 nav: ホーム
 icon: home
+lang:
 description: Vim Key Binder for Windows
 ---
 
@@ -29,7 +30,7 @@ description: Vim Key Binder for Windows
 
 ##### デモ
 
-<img src="imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
+<img src="{{ imgs/4xxdemo.gif?raw=true | relative_url }}" title="Demo" width="624">  
 
 
 ##### 設定ファイルの例
