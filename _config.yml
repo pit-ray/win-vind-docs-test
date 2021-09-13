@@ -1,5 +1,7 @@
 remote_theme: allejo/jekyll-docs-theme@v1.0.0
 
+root: https://pit-ray.github.io/win-vind
+
 name: win-vind
 logo: imgs/win-vind-icon.png
 
