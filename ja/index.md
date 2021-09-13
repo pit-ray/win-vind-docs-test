@@ -3,9 +3,9 @@ layout: full
 homepage: true
 disable_anchors: true
 title: ホーム - win-vind
-nav: ホーム
+nav: x-ホーム
 icon: home
-lang:
+lang: ja
 description: Vim Key Binder for Windows
 ---
 
@@ -28,7 +28,7 @@ description: Vim Key Binder for Windows
 - GUIのためのVimium/EasyMotionライクな操作
 
 
-##### デモ
+##### 動作例
 
 <img src="{{ site.root }}/imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
 
