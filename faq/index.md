@@ -7,8 +7,6 @@ nav: FAQ
 icon: question
 description: frequently asked questions and these answers
 ---
-If you have some questions, please send me.
-
 
 ### Why is the name win-vind?  
 win-vind means <u>vi</u>m key b<u>ind</u>er for <u>win</u>dows.  

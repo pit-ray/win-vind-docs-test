@@ -3,8 +3,12 @@ remote_theme: allejo/jekyll-docs-theme@v1.0.0
 name: win-vind
 logo: imgs/win-vind-icon.png
 
-translation:
-  - ja
+translations:
+  - id:
+    label: English
+
+  - id: ja
+    label: 日本語
 
 project:
   version: 4.2.0

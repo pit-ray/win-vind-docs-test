@@ -8,7 +8,7 @@
     {% endcapture %}
 
     <div class="container">
-      <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      <a class="navbar-brand" href="{{ root_url }}">
           {% for p in site.pages %}
               {% if page.translation == p.translation and p.homepage == true %}
                   {% if p.icon %}
@@ -64,7 +64,7 @@
                         <li class="nav-item {% if page.nav == p.nav %}active{% endif %}">
                             <a
                                 class="nav-link"
-                                href="{{ root_url | append p.url }}"
+                                href="{{ p.url | relative_url }}"
                             >
                                 {% if p.icon %}
                                     {% include fa-icon.html
@@ -79,6 +79,15 @@
                 {% endfor %}
             </ul>
             <ul class="navbar-nav ml-auto">
+                <select onchange="window.location.href='{{ '/' | relative_url }}' + this.value">
+                    {% for lang in site.translations %}
+                        <option value="{{ lang.id }}"
+                            {% if lang.id == page.translation %}
+                                selected
+                            {% endif %}
+                        >{{ lang.label }}</option>
+                    {% endfor %}
+                </select>
                 {% for p in site.links.header %}
                     <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                         <a

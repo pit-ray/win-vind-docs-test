@@ -1,14 +1,13 @@
 ---
 layout: full
-homepage: false
+homepage: true
 disable_anchors: true
 title: ホーム - win-vind
-nav_id: home
 nav: ホーム
 show_in_menu: false
 icon: home
 translation: ja
-translation_label: 日本語
+translators: pit-ray
 description: Vim Key Binder for Windows
 ---
 

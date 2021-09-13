@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Functions - win-vind
-nav: Functions
+title: すべての機能 - win-vind
+nav: すべての機能
 show_in_menu: false
 disable_anchors: true
-parent: Cheat Sheet
-description: All supported functions list
+translation: ja
+translators: pit-ray
+description: サポートされたすべての機能
 ---
 
-### Mode
+### モード
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**to_command**|Command Mode|
 |**to_edi_normal**|Editor Normal Mode|
@@ -22,9 +23,9 @@ description: All supported functions list
 |**to_resident**|Resident Mode|
 
 
-### Mouse
+### マウス
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**click_left**|Left button of a mouse click|
 |**click_right**|Right button of a mouse click|
@@ -55,9 +56,9 @@ description: All supported functions list
 |**scroll_up_halfpage**|Scroll a mouse wheel up with a half page|
 |**scroll_up_onepage**|Scroll a mouse wheel up with a page|
 
-### Hotkey
+### ホットキー
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**backward_ui_navigation**|Backward UI Navigation|
 |**decide_focused_ui_object**|Decide a focused UI object|
@@ -79,9 +80,9 @@ description: All supported functions list
 |**start_explorer**|Start a Explorer|
 |**undo**|Undo|
 
-### Virtual Desktop
+### 仮想デスクトップ
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**close_current_vdesktop**|Close a current virtual desktop|
 |**create_new_vdesktop**|Create a new virtual desktop|
@@ -89,9 +90,9 @@ description: All supported functions list
 |**switch_to_right_vdesktop**|Switch to a right virtual desktop|
 |**taskview**|Task View|
 
-### Tab
+### タブ
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**close_current_tab**|Close a current tab|
 |**open_new_tab**|Open a new tab|
@@ -99,9 +100,9 @@ description: All supported functions list
 |**switch_to_right_tab**|Switch to a right tab|
 
 
-### Window
+### ウィンドウ
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**arrange_windows**|Arrange windows with tile style|
 |**close_current_window**|Close a current window|
@@ -131,35 +132,35 @@ description: All supported functions list
 |**switch_window**|Switch a window|
 |**window_resizer**|Start window resizer. It respects Vim plugin <a href="https://github.com/simeji/winresizer">simeji/winresizer</a>.|
 
-### File
+### ファイル
 
-|ID|Note|
+|ID|備考|
 |:---:|:---|
 |**makedir**|Create a directory. If you call it with a relative path such as `:mkdir foo`, it creates it in the explorer directory. If no explorer is found, it creates it in `~/Desktop/foo`. If you call it with an absolute path like `:mkdir C:/Users/You/Desktop/bar`, it will create a directory along the path, but not recursively.|
 
-### Process
+### プロセス
 
-|ID|Note|
+|ID|備考|
 |:---:|:---|
 |**execute**|Open file with the associated application. It is wrapper of **ShellExecute**. Therefore, you can open any format files and URLs. For example, `:e ~/.vimrc` or `:e https://www.google.com`.|
 |**exit_config_gui**|Exit win-vind|
 |**start_external**|Start an external application. This environment variable is dependent on the application specified in the shell option. By appending `;` at the end, it keeps the console window without closing immediately. If the explorer is the foreground window, the current directory of a terminal will be that directory.|
 |**start_shell**|Start a terminal. If the explorer is the foreground window, the current directory of a terminal will be that directory.|
 
-### Option
+### オプション
 
-|ID|Note|
+|ID|備考|
 |:---:|:---|
 |**disable_targeting_of_dedicate_to_window**|Disable targeting (Dedicate to One Window)|
 |**enable_targeting_of_dedicate_to_window**|Enable targeting (Dedicate to One Window)|
 
-### Vim Emulation
+### Vimエミュレーション
 
 <br>
 
-**Mode**  
+**モード**  
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**to_insert_BOL**|Insert to begin of line|
 |**to_insert_EOL**|Append end of line|
@@ -169,9 +170,9 @@ description: All supported functions list
 
 <br>
 
-**Move**  
+**移動**  
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**move_caret_down**|Move the caret down|
 |**move_caret_left**|Move the caret to left|
@@ -184,9 +185,9 @@ description: All supported functions list
 
 <br>
 
-**Jump**  
+**ジャンプ**  
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**jump_caret_to_BOF**|Jump the caret to BOF|
 |**jump_caret_to_BOL**|Jump the caret to begin of line|
@@ -195,9 +196,9 @@ description: All supported functions list
 
 <br>
 
-**Edit**  
+**編集**  
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**change_char**|Change Characters|
 |**change_highlight_text**|Change highlighted texts|
@@ -224,7 +225,7 @@ description: All supported functions list
 
 ### System Command
 
-|ID|Feature|
+|ID|機能|
 |:---:|:---|
 |**system_command_comclear**|System Command comclear|
 |**system_command_command**|System Command command|
