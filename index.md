@@ -50,7 +50,7 @@ set blockstylecaret_mode = solid
 " Low-level key mapping in resident mode
 rmap <capslock> <ctrl>
 
-" Define bindings in GUI Normal mode
+" Define bindings in GUI normal mode
 gnnoremap <c-h> select_left_window
 gnnoremap <c-l> select_right_window
 gnnoremap <c-k> select_upper_window
