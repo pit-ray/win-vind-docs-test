@@ -1,5 +1,6 @@
 ---
 layout: full
+homepage: false
 disable_anchors: true
 title: ホーム - win-vind
 nav: ホーム
