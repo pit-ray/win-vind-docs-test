@@ -153,9 +153,9 @@ description: All supported functions list
 |**disable_targeting_of_dedicate_to_window**|Disable targeting (Dedicate to One Window)|
 |**enable_targeting_of_dedicate_to_window**|Enable targeting (Dedicate to One Window)|
 
-If **Dedicate to One window** enables, you can select one window with Enable Targeting function. In this case, it makes the mode automatically switch to Editor Normal Mode on the targeting window. When the foreground window change to another, it makes the mode switch to Insert Mode. The targeting becomes disable with Disable Targeting function. In other words, this feature transforms some normal editors to fake Vim. The computing cost is so small.
-
 ### Vim Emulation
+
+<br>
 
 **Mode**  
 
@@ -166,6 +166,8 @@ If **Dedicate to One window** enables, you can select one window with Enable Tar
 |**to_insert_append**|Append after a caret|
 |**to_insert_nlabove**|Begin new line above a caret|
 |**to_insert_nlbelow**|Begin new line below a caret|
+
+<br>
 
 **Move**  
 
@@ -180,6 +182,8 @@ If **Dedicate to One window** enables, you can select one window with Enable Tar
 |**move_caret_word_backward**|Backward with words|
 |**move_caret_word_forward**|Forward with words|
 
+<br>
+
 **Jump**  
 
 |ID|Feature|
@@ -188,6 +192,8 @@ If **Dedicate to One window** enables, you can select one window with Enable Tar
 |**jump_caret_to_BOL**|Jump the caret to begin of line|
 |**jump_caret_to_EOF**|Jump the caret to EOF|
 |**jump_caret_to_EOL**|Jump the caret to end of line|
+
+<br>
 
 **Edit**  
 
