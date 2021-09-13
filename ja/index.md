@@ -4,6 +4,7 @@ homepage: false
 disable_anchors: true
 title: ホーム - win-vind
 nav: ホーム
+show_in_menu: false
 icon: home
 lang: ja
 description: Vim Key Binder for Windows
