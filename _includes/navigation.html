@@ -42,7 +42,7 @@
 
         <nav class="navbar-collapse collapse" role="navigation" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                {% assign sorted_pages = site.pages | sort: "icon" %}
+                {% assign sorted_pages = site.pages | sort: "nav_id" %}
                 {% for p in sorted_pages %}
                     {% if page.translation != p.translation %}
                         {% continue %}
