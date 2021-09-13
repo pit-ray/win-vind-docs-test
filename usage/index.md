@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Usage - win-vind
+nav_id: home
 nav: Usage
 icon: map-signs
 disable_anchors: true

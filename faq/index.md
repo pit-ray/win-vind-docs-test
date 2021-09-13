@@ -2,6 +2,7 @@
 layout: page
 disable_anchors: true
 title: FAQ - win-vind
+nav_id: faq
 nav: FAQ
 icon: question
 description: frequently asked questions and these answers

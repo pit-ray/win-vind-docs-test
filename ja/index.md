@@ -3,10 +3,12 @@ layout: full
 homepage: false
 disable_anchors: true
 title: ホーム - win-vind
+nav_id: home
 nav: ホーム
 show_in_menu: false
 icon: home
-lang: ja
+translation: ja
+translation_label: 日本語
 description: Vim Key Binder for Windows
 ---
 
@@ -31,7 +33,7 @@ description: Vim Key Binder for Windows
 
 ##### 動作例
 
-<img src="{{ site.root }}/imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
+<img src="{{ '/' | relative_url }}/imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
 
 
 ##### 設定ファイルの例

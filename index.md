@@ -3,8 +3,10 @@ layout: full
 homepage: true
 disable_anchors: true
 title: Home - win-vind
+nav_id: home
 nav: Home
 icon: home
+translation_label: English
 description: Vim Key Binder for Windows
 ---
 
