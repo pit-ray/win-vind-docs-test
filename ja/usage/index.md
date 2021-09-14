@@ -1,136 +1,139 @@
 ---
 layout: page
 title: 使い方 - win-vind
-nav_id: home
 nav: 使い方
-translation: ja
-translator: pit-ray
 icon: map-signs
+translation: ja
+translators: pit-ray
+version: 4.2.0
 disable_anchors: true
 ---
-This software only supports Windows 10 or Windows 11 on real machines. Therefore, it may not work on older Windows or virtual environments such as Wine or Virtual Box.  
 
-If you have any problems or requests, please post them on [GitHub Issues](https://github.com/pit-ray/win-vind/issues).  
+　このソフトウェアは、実機のWindows 10またはWindows 11のみをサポートしています。したがって、それ以前のWindowsやWineやVirtual Boxなどの仮想環境では動作しない可能性があります。問題や要望がありましたら、 [GitHub Issues](https://github.com/pit-ray/win-vind/issues)へお寄せください。日本語でも構いません。
 
 
-## Installation
 
-- Download either the zip version or the installer version that suits your preference. The installer version creates dependencies to the installed directory and the user directory, while the zip version does not create any files outside the unzipped root.  
-   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>32bit Installer (.exe)</span></span>]({{ site.dl_ins_32 }})
-   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>32bit Portable (.zip)</span></span>]({{ site.dl_zip_32 }})  
-   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>64bit Installer (.exe)</span></span>]({{site.dl_ins_64 }})
-   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>64bit Portable (.zip)</span></span>]({{ site.dl_zip_64 }})
+## インストール方法
+- インストーラ版かポータブル版をダウンロードします。インストーラ版はインストールするディレクトリとユーザディレクトリに依存関係を作りますが、ポータブル版はスタートアップファイルを除き、解凍後のルートディレクトリ以外に一切のファイルを生成しません。  
+   
+   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>32bit インストーラ (.exe)</span></span>]({{ site.dl_ins_32 }})
+   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>32bit ポータブル (.zip)</span></span>]({{ site.dl_zip_32 }})  
+   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>64bit インストーラ (.exe)</span></span>]({{site.dl_ins_64 }})
+   [<span class="site-masthead__button"><i class="fas fa-download"></i>&nbsp;<span>64bit ポータブル (.zip)</span></span>]({{ site.dl_zip_64 }})
    <br>
 
-- When you run win-vind.exe for the first time, it will start in Insert mode, so you may not know if it is working, but if you see the icon in the task tray, it is working properly.
+- インストールし、win-vind.exeを実行します。
+
+- タスクトレイにアイコンが表示されていれば適切に動作しています。
    <p align="center">
-   <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/taskbar.jpg?raw=true" width=500 >  
+   <img src="{{ site.url }}/imgs/taskbar.jpg" width=500 >  
    <p align="center">Like this</p>
    </p>
 
 
-## Note 
-- `:exit` is the recommended termination.
-- `<F8> + <F9>` is safe forced termination.
-- win-vind could **not** operate some windows given high-rank authorization than itself. For example, if you start **Task Manager** having the highest authorization and select its window, you cannot move, click or scroll the mouse cursor by win-vind. If you want to operate all windows, I recommend giving win-vind the administrator authorization. (Please use **Task Scheduler**).
+## 備考
+- `:exit`は推奨の終了コマンドです。
+- `<F8> + <F9>`は安全な強制終了コマンドです。
+- win-vindは自分より高い権限を持つウィンドウを操作できません。例えば、最も高位の権限を持つ**タスクマネージャ**を選択すると、win-vindによるマウスの移動、クリック、スクロールなどができなくなります。すべてのウィンドウを操作したい場合には、win-vindを管理者権限で実行することをお勧めします。その場合には、**タスクスケジューラ**をご利用ください。
 
 
-## Quick Tutorial
+## 簡単なチュートリアル
 
-### 1. Mode Transition
+### 1. モード遷移
 
-The basic concept is the same as Vim, but there are two **Normal Mode** and two **Visual Mode**, and **Resident Mode**.   
-
-<p align="center">
-<img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/mode_overview.png?raw=true" width=600>  
-<p align="center">Default mode layer overview</p>
-</p>
-
-The two groups are GUI mode and Editor mode. The former group is for the operation of windows and mouse cursor, and the latter group is for Vim emulation on input forms in web pages or Microsoft Office Word.  
+　基本的な概念はVimと同じですが、二つの**Normalモード**と二つの**Visualモード**と**Residentモード**があります。
 
 <p align="center">
-<img src="https://github.com/pit-ray/pit-ray.github.io/blob/master/win-vind/imgs/GUIandEditor.jpg?raw=true" width=700>
-<p align="center">Concepts of GUI Mode and Editor Mode</p>
+<img src="{{ site.url }}/imgs/mode_overview.png" width=600>  
+<p align="center">デフォルトのモード構成の概要</p>
 </p>
 
-Resident Mode is an evacuation mode to prevent bindings from being collisions with shortcut keys while gaming on Steam or using Vim. For example, if you have added `<Esc>` into the keymap of Insert Mode for faithful Vim emulation, you can use Resident Mode to prevent a feature from being called by Vim's `<Esc>`.  
-
-
-**Insert Mode** and **Resident Mode** pass all key messages to Windows, while **GUI Normal Mode**, **GUI Visual Mode**, **Edi Normal Mode**, **Edi Visual Mode**, and **Command Mode** block them.  
+　GUIモードとEditorモードの二つのグループがあります。前者ではウィンドウやマウスの操作などを行うことができ、後者はWebページの入力フォームやMicrosoft Office WordなどでVimエミュレーションを行うことができます。  
 
 <p align="center">
-<img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/mode_overview_3D.png?raw=true" width=500 >  
-<p align="center">Visual Concepts of Mode</p>
+<img src="{{ site.url }}/imgs/GUIandEditor.jpg" width=700>
+<p align="center">GUIモードとEditorモードの概略図</p>
 </p>
 
-After the boot, win-vind will be in **Insert Mode**. Let's make transitions of mode!  
+　Residentモードは、Steamでのゲーム中やVimの使用中にそれらのショートカットキーと衝突するのを防ぐための退避モードです。例えば、忠実なVimエミュレーションのためにInsertモードのキーマップに`<Esc>`を追加した場合には、Residentモードに遷移することでVimの`<Esc>`によりwin-vindが呼び出されるのを防ぐことができます。
+
+　**Insertモード**と**Residentモード**はすべてのに入力メッセージをWindowsへ伝えますが、**GUI Normalモード**、 **GUI Visualモード**、**Edi Normalモード**、**Edi Visualモード**、**Commandモード**はすべてブロックします。
+
+<p align="center">
+<img src="{{ site.url }}/imgs/mode_overview_3D.png" width=500 >  
+<p align="center">モードの視覚的概念</p>
+</p>
+
+起動直後は**Insertモード**です。上の図を参考にモードの遷移を行ってみてください。
 
 
-### 2. GUI Operation and Window Operation  
+### 2. GUIの操作とウィンドウの操作
 
-1. Switch to **GUI Normal Mode** with `<Esc-Left>`.
-1. Please inputs `:!mspaint` to launch Microsoft Paint.
-1. You can call **EasyClick** with `FF`.
+1. `<Esc-Left>`で**GUI Normalモード**に切り替えます。
+1. `:!mspaint`と入力し、Microsoft ペイントを起動します。
+1. `FF`コマンドにより、**EasyClick**を呼び出すことができます。  
    <p align="center">
-   <img src="https://github.com/pit-ray/pit-ray.github.io/blob/master/win-vind/imgs/EasyClickDemo.gif?raw=true">
-   <p align="center">EasyClick Demo</p>
+   <img src="{{ site.url }}/imgs/EasyClickDemo.gif">
+   <p align="center">EasyClickの動作例</p>
    </p>
-1. Let's select windows with `<C-w>h` or `<C-w>l`.
-1. Please select Microsoft Paint and close it with `:close`.
+1. 次に`<C-w>h`や`<C-w>l`でウィンドウを選択できることを確認します。
+1. 最後にMicrosoft ペイントを選択し、`:close`でウィンドウを閉じます。
 
 
+### 3. win-vindのカスタマイズ
 
-### 3. Customize Options and Maps  
+　win-vindは**Run Commands**形式の設定方法を採用しています。`.vimrc`を書いたことがあれば、簡単にカスタマイズできます。
 
-win-vind uses **Run Commands** style configuration method. If you've ever written a `.vimrc`, it's easy to make it your win-vind.  Generally, there are three levels of key mapping: **key2key**, **keyset2keyset**, and **cmd2cmd**. **key2key** maps one key to one key. **keyset2keyset** maps a keyset to a keyset(e.g. `c-s` to `<m-h>`). **cmd2cmd** performs sequential mapping (e.g. `qq` to `<c-w>e`).  
+　キーマッピングには一般的に**key2key**、**keyset2keyset**、**cmd2cmd**の3つのレベルがあります。key2keyは一つのキーを他のキーに割り当てます。keyset2keysetは、`<c-s>`から`<m-h>`のように、いくつかのキーの組み合わせから、別の組み合わせに割り当てます。cmd2cmdは、`qq`から`<c-w>e`のように時系列的なコマンド入力に反応し、別のコマンドを生成するマッピング方式です。
 
-The keyset syntax uses the same expression as in Vim, where keys are connected by `-` between `<` and `>`. However, there is no limit to the number of combinations, and you can connect as many as you like. (e.g. `<Esc-b-c-a-d>`).  
+　キーセットは、Vimと同様に`<`と`>`の内で`-`で繋ぐようにして表現します。ただし、`<Esc-b-c-a-d>`のように好きなだけ組み合わせることができます。
 
-The following commands are supported. By the way, `{` and `}` themselves are not part of the syntax.  
+以下のコマンドがサポートされています。ただ、`{`と`}`自体は構文には含まれません。
 
-|**Syntax**|**Effects**|
+
+|**構文**|**効果**|
 |:---|:---|
-|`set {option}`|Set the value of the option to **true**.|
-|`set no{option}`|Set the value of the option to **false**.|
-|`set {option} = {val}`|Set a value of the option. The value can be a string or a number that allows floating points. The string does not need quotation marks, and any character after the non-white character will be handled as the value. White spaces at both ends of the equals sign are ignored.|
-|`{mode}map {in-key} {out-key}`|It performs **key2key** mapping with low-level. The keymap influences Windows as a whole, not just the win-vind scope. Therefore, use it with caution.|
-|`{mode}noremap {in-cmd} {func-id}`|It defines the map to call the function.|
-|`{mode}noremap {in-keyset} {out-keyset}`|It performs **keyset2keyset** mapping in win-vind scope. However, since the `{func-id}` definition has higher priority than its syntax, it may result in exactly one remap. For example `inoremap k move_cursor_left` and `inoremap f k` then `f` will be mapped to `move_cursor_left` instead of `move_cursor_up`.|
-|`{mode}unmap {in-cmd}`|Remove the map corresponding to the `{in-cmd}`.|
-|`{mode}mapclear`|Delete all maps.|
-|`command {in-cmd} {func-id}`|It defines the command to call the function.|
-|`delcommand {in-cmd}`|Remove the command corresponding to the `{in-cmd}`.|
-|`comclear`|delete all commands.|
+|`set {option}`|オプションの値を**true**にします。|
+|`set no{option}`|オプションの値を**false**にします。|
+|`set {option} = {val}`|オプションのパラメータを設定します。値には文字列か浮動小数点を含む数値です。文字列には引用符は不要で、空白以外の文字以降が値として扱われます。ちなみに等号の両端の空白は無視されます。|
+|`{mode}map {in-key} {out-key}`|低レベルなkey2keyマッピングを行います。定義された低レベルマップは、win-vindだけでなく、Windows全体に影響を与えます。|
+|`{mode}noremap {in-cmd} {func-id}`|ファンクションを呼び出すためのマッピングを定義します。|
+|`{mode}noremap {in-keyset} {out-keyset}`|win-vindのスコープでkeyset2keysetのマッピングを行います。ただし、`{func-id}`を利用した構文のほうが優先度が高いため、正確には1段階の再帰的なマッピングが生じる可能性があります。|
+|`{mode}unmap {in-cmd}`|`{in-cmd}`に割り当てられたマップを削除します。|
+|`{mode}mapclear`|すべてのマップを削除します。|
+|`command {in-cmd} {func-id}`|ファンクションを呼び出すためのコマンドを定義します。`{in-cmd}`に`:`は不要です。|
+|`delcommand {in-cmd}`|`{in-cmd}`に割り当てられたコマンドを削除します。|
+|`comclear`|すべてのコマンドを削除します。|
 
-`{mode}` is the [Mode Prefix](https://pit-ray.github.io/win-vind/cheat_sheet/keyword_lists/#mode-prefix). And only **UTF-8** format is supported for `.vindrc`.  
+  
+`{mode}`は、[モード接頭辞]({{ site.url }}/ja/cheat_sheet/keywords/#モード接頭辞)です。また、`.vindrc`は**UTF-8**フォーマットのみがサポートされています。
 
 
-Let's do the last tutorial!  
+それでは最後のチュートリアルを行いましょう。
 
-1. Go to **Insert Mode**.
-1. This time, we will try **Instant GUI Normal Mode** with `<F8>`. It allows us to temporarily switch to the **GUI Normal Mode**.  
-
+1. まずは**Insertモード**に遷移します。
+1. 今回は`<F8>`の**Instant GUI Normalモード**を試してみます。**Instant GUI Normalモード**は、一時的に**GUI Normalモード**へ遷移し、一度ファンクションが呼び出されたら元のモードに戻ります。
    <p align="center">
-   <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/instant_gui_normal_mode.jpg?raw=true" width=450 >  
+   <img src="{{ site.url }}/imgs/instant_gui_normal_mode.jpg" width=450 >  
    <p align="center">Instant GUI Normal Demo</p>
    </p>
-1. Open your `.vindrc` with `:e ~/.win-vind/.vindrc`.  
+1. `:e ~/.win-vind/.vindrc`で`.vindrc`を開きます。
    <p align="center">
-   <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/edit_vindrc_demo.jpg?raw=true" width=450 >  
-   <p align="center">Edit .vindrc Demo</p>
+   <img src="{{ site.url }}/imgs/edit_vindrc_demo.jpg" width=450 >  
+   <p align="center">:e Demo</p>
    </p>
-1. Write following commands into `.vindrc`.
+1. `.vindrc`に次のようなコマンドを書き込みます。
    ```vim
    set cmd_fontname = Times New Roman
    imap <Capslock> <ctrl>
    inoremap <Alt> easy_click_left
    ```
-1. If you done, try reloading `.vindrc` with `:source` of win-vind. (No arguments are needed.)
+1. 次のように`:source`コマンドを実行すると`.vindrc`が読み込まれます。引数は不要です。
    <p align="center">
-   <img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/source_demo.jpg?raw=true" width=450 >  
-   <p align="center">Reload Demo</p>
+   <img src="{{ site.url }}/imgs/source_demo.jpg" width=450 >  
+   <p align="center">:source Demo</p>
    </p>
-1. In **Insert Mode**, you can use `<Capslock>` instead of `<Ctrl>` and operate GUI with hinting like **EasyMotion** or **Vimium** by `<Alt>`.
+1. **Insertモード**では、Ctrlの代わりにCapslockを利用でき、Altキー一つで**EasyClick**を起動できるようになります。
 
 <br>
 <br>

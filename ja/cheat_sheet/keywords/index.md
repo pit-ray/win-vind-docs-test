@@ -1,60 +1,61 @@
 ---
 layout: page
-title: Keywords - win-vind
-nav: Keywords
+title: キーワード- win-vind
+nav: キーワード
 show_in_menu: false
-disable_anchors: true
 translation: ja
 translators: pit-ray
-description: Keywords for writing .vindrc
+version: 4.2.0
+disable_anchors: true
 ---
-All keywords in win-vind are not case-sensitive.  
 
-### Mode Prefix
+win-vindにおける特殊キーワードは大文字と小文字を区別しません。
 
-|Keyword|Meanings|
+### モード接頭辞
+
+|キーワード|意味|
 |:---:|:---:|
-|gn|GUI Normal Mode|
-|gv|GUI Visual Mode|
-|en|Editor Normal Mode|
-|ev|Editor Visual Mode|
-|i|Insert Mode|
-|r|Resident Mode|
-|c|Command Mode|
+|gn|GUI Normalモード|
+|gv|GUI Visualモード|
+|en|Editor Normalモード|
+|ev|Editor Visualモード|
+|i|Insertモード|
+|r|Residentモード|
+|c|Commandモード|
 
-### Specific Keyword  
+### 特殊キーワード  
 
-|Keyword|Meanings|
+|キーワード|意味|
 |:---:|:---|
-|`<num>`|It is a number of any digits. However, you **must not** multiple uses of this keyword per a command.|
-|`<any>`|It is an optional string. If you include it into a command, all keywords after that are considered to be matching.|
+|`<num>`|任意の桁数の数字です。ただし、一つのコマンドに複数含めてはいけません。|
+|`<any>`|任意の文字列です。このキーワード以降は、すべての文字がマッチングします。|
 
 
-### Specific Ascii Key Code  
+### 特殊Asciiキーコード
 
-|Key Code|Meanings|
+|キーワード|意味|
 |:---:|:---|
-|`<space>`|Space Key|
-|`<hbar>`|Ascii code '-'|
-|`<gt>`|Ascii code '&gt;'|
-|`<lt>`|Ascii code '&lt;'|
+|`<space>`|Spaceキー|
+|`<hbar>`|Asciiコードの'-'|
+|`<gt>`|Asciiコードの'&gt;'|
+|`<lt>`|Asciiコードの'&lt;'|
 
  
-### System Key Code  
+### システムキーワード  
 
-|Key Code|Meanings|
+|キーワード|意味|
 |:---:|:---|
-|`<bs>`|BackSpace Key|
-|`<capslock>`|CapsLock Key|
-|`<cr>`|Enter Key, Return Key|
-|`<enter>`|Enter Key, Return Key|
-|`<return>`|Enter Key, Return Key|
+|`<bs>`|BackSpaceキー|
+|`<capslock>`|CapsLockキー|
+|`<cr>`|Enterキー, Returnキー|
+|`<enter>`|Enterキー, Returnキー|
+|`<return>`|Enterキー, Returnキー|
 |`<ime>`|Key for switching IME|
-|`<tab>`|Tab Key|
-|`<left>`|Left Key|
-|`<right>`|Right Key|
-|`<up>`|Up Key|
-|`<down>`|Down Key|
+|`<tab>`|Tabキー|
+|`<left>`|Leftキー|
+|`<right>`|Rightキー|
+|`<up>`|Upキー|
+|`<down>`|Downキー|
 |`<shift>`|Left Shift, Right Shift|
 |`<s>`|Left Shift, Right Shift|
 |`<lshift>`|Left Shift|
@@ -67,9 +68,9 @@ All keywords in win-vind are not case-sensitive.
 |`<lc>`|Left Control|
 |`<rctrl>`|Right Control|
 |`<rc>`|Right Control|
-|`<win>`|Left Windows Key, Right Windows Key|
-|`<lwin>`|Left Windows Key|
-|`<rwin>`|Right Windows Key|
+|`<win>`|Left Windowsキー, Right Windowsキー|
+|`<lwin>`|Left Windowsキー|
+|`<rwin>`|Right Windowsキー|
 |`<alt>`|Left Alt, Right Alt|
 |`<a>`|Left Alt, Right Alt|
 |`<lalt>`|Left Alt|
@@ -79,11 +80,11 @@ All keywords in win-vind are not case-sensitive.
 |`<m>`|Left Alt, Right Alt|
 |`<lm>`|Left Alt|
 |`<rm>`|Right Alt|
-|`<app>`|Application Key to right-click|
-|`<cvt>`|Convert Key to convert|
-|`<esc>`|Eescape Key|
-|`<kana>`|Kana Key to switch IME mode on Japanese keyboard.|
-|`<nocvt>`|No Convert Key to cancel conversion|
+|`<app>`|Applicationキー|
+|`<cvt>`|変換キー|
+|`<esc>`|Eescapeキー|
+|`<kana>`|Kanaキー|
+|`<nocvt>`|無変換キー|
 |`<f1>`|F1|
 |`<f2>`|F2|
 |`<f3>`|F3|
@@ -108,16 +109,16 @@ All keywords in win-vind are not case-sensitive.
 |`<f22>`|F22|
 |`<f23>`|F23|
 |`<f24>`|F24|
-|`<del>`|Delete Key|
-|`<end>`|End Key|
-|`<home>`|Home Key|
-|`<insert>`|Insert Key|
-|`<numlock>`|NumLock Key|
-|`<pagedown>`|Page Down Key|
-|`<pageup>`|Page Up Key|
-|`<pause>`|Pause Key, Break Key|
-|`<scroll>`|Scroll Key, Scroll Lock Key|
-|`<snapshot>`|Snapshot Key, Print Screen Key, Sys Rq Key|
+|`<del>`|Deleteキー|
+|`<end>`|Endキー|
+|`<home>`|Homeキー|
+|`<insert>`|Insertキー|
+|`<numlock>`|NumLockキー|
+|`<pagedown>`|Page Downキー|
+|`<pageup>`|Page Upキー|
+|`<pause>`|Pauseキー, Breakキー|
+|`<scroll>`|Scrollキー, Scroll Lockキー|
+|`<snapshot>`|Snapshotキー, Print Screenキー, Sys Rqキー|
 
 <br>
 <br>

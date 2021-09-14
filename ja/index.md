@@ -8,13 +8,14 @@ show_in_menu: false
 icon: home
 translation: ja
 translators: pit-ray
+version: 4.2.0
 description: Vim Key Binder for Windows
 ---
 
 
 ## このソフトウェアについて  
 
-**win-vind**は、Vimとそのプラグインに影響を受けたWindowsのUIおもちゃ箱です。
+**win-vind**は、Vimとそのプラグインの影響を強く受けた、Windowsを操作するためのツールボックスです。
 
 
 ### 機能  
@@ -22,7 +23,6 @@ description: Vim Key Binder for Windows
 - Vimライクなモード管理
 - マウスレスのGUI操作
 - どこでもVimエミュレーション
-- 常駐コマンドライン
 - 低レベルなキーマッピング (例: CapsLockをCtrl)
 - ユーザ権限内での実行
 - VimやAHKからのワンショット利用 (例: `$ win-vind -f easy_click_left`)
@@ -32,7 +32,7 @@ description: Vim Key Binder for Windows
 
 ##### 動作例
 
-<img src="{{ '/' | relative_url }}/imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
+<img src="{{ site.url }}/imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
 
 
 ##### 設定ファイルの例

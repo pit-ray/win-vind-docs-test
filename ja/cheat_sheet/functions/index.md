@@ -1,17 +1,18 @@
 ---
 layout: page
-title: すべての機能 - win-vind
-nav: すべての機能
+title: Functions - win-vind
+nav: Functions
 show_in_menu: false
 disable_anchors: true
 translation: ja
 translators: pit-ray
-description: サポートされたすべての機能
+version: 4.2.0
+parent: Cheat Sheet
 ---
 
-### モード
+### Mode
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**to_command**|Command Mode|
 |**to_edi_normal**|Editor Normal Mode|
@@ -23,9 +24,9 @@ description: サポートされたすべての機能
 |**to_resident**|Resident Mode|
 
 
-### マウス
+### Mouse
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**click_left**|Left button of a mouse click|
 |**click_right**|Right button of a mouse click|
@@ -56,9 +57,9 @@ description: サポートされたすべての機能
 |**scroll_up_halfpage**|Scroll a mouse wheel up with a half page|
 |**scroll_up_onepage**|Scroll a mouse wheel up with a page|
 
-### ホットキー
+### Hotkey
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**backward_ui_navigation**|Backward UI Navigation|
 |**decide_focused_ui_object**|Decide a focused UI object|
@@ -80,9 +81,9 @@ description: サポートされたすべての機能
 |**start_explorer**|Start a Explorer|
 |**undo**|Undo|
 
-### 仮想デスクトップ
+### Virtual Desktop
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**close_current_vdesktop**|Close a current virtual desktop|
 |**create_new_vdesktop**|Create a new virtual desktop|
@@ -90,9 +91,9 @@ description: サポートされたすべての機能
 |**switch_to_right_vdesktop**|Switch to a right virtual desktop|
 |**taskview**|Task View|
 
-### タブ
+### Tab
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**close_current_tab**|Close a current tab|
 |**open_new_tab**|Open a new tab|
@@ -100,9 +101,9 @@ description: サポートされたすべての機能
 |**switch_to_right_tab**|Switch to a right tab|
 
 
-### ウィンドウ
+### Window
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**arrange_windows**|Arrange windows with tile style|
 |**close_current_window**|Close a current window|
@@ -132,35 +133,50 @@ description: サポートされたすべての機能
 |**switch_window**|Switch a window|
 |**window_resizer**|Start window resizer. It respects Vim plugin <a href="https://github.com/simeji/winresizer">simeji/winresizer</a>.|
 
-### ファイル
+### File
 
-|ID|備考|
+|ID|Note|
 |:---:|:---|
 |**makedir**|Create a directory. If you call it with a relative path such as `:mkdir foo`, it creates it in the explorer directory. If no explorer is found, it creates it in `~/Desktop/foo`. If you call it with an absolute path like `:mkdir C:/Users/You/Desktop/bar`, it will create a directory along the path, but not recursively.|
 
-### プロセス
+### Process
 
-|ID|備考|
+|ID|Note|
 |:---:|:---|
 |**execute**|Open file with the associated application. It is wrapper of **ShellExecute**. Therefore, you can open any format files and URLs. For example, `:e ~/.vimrc` or `:e https://www.google.com`.|
 |**exit_config_gui**|Exit win-vind|
 |**start_external**|Start an external application. This environment variable is dependent on the application specified in the shell option. By appending `;` at the end, it keeps the console window without closing immediately. If the explorer is the foreground window, the current directory of a terminal will be that directory.|
 |**start_shell**|Start a terminal. If the explorer is the foreground window, the current directory of a terminal will be that directory.|
 
-### オプション
+### Option
 
-|ID|備考|
+|ID|Note|
 |:---:|:---|
 |**disable_targeting_of_dedicate_to_window**|Disable targeting (Dedicate to One Window)|
 |**enable_targeting_of_dedicate_to_window**|Enable targeting (Dedicate to One Window)|
 
-### Vimエミュレーション
+### System Command
+
+|ID|Feature|
+|:---:|:---|
+|**system_command_comclear**|System Command comclear|
+|**system_command_command**|System Command command|
+|**system_command_delcommand**|System Command delcommand|
+|**system_command_map**|System Command map|
+|**system_command_mapclear**|System Command mapclear|
+|**system_command_noremap**|System Command noremap|
+|**system_command_set**|System Command set|
+|**system_command_source**|System Command source|
+|**system_command_unmap**|System Command unmap|
+
+
+### Vim Emulation
 
 <br>
 
-**モード**  
+**Mode**  
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**to_insert_BOL**|Insert to begin of line|
 |**to_insert_EOL**|Append end of line|
@@ -170,9 +186,9 @@ description: サポートされたすべての機能
 
 <br>
 
-**移動**  
+**Move**  
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**move_caret_down**|Move the caret down|
 |**move_caret_left**|Move the caret to left|
@@ -185,9 +201,9 @@ description: サポートされたすべての機能
 
 <br>
 
-**ジャンプ**  
+**Jump**  
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**jump_caret_to_BOF**|Jump the caret to BOF|
 |**jump_caret_to_BOL**|Jump the caret to begin of line|
@@ -196,9 +212,9 @@ description: サポートされたすべての機能
 
 <br>
 
-**編集**  
+**Edit**  
 
-|ID|機能|
+|ID|Feature|
 |:---:|:---|
 |**change_char**|Change Characters|
 |**change_highlight_text**|Change highlighted texts|
@@ -222,20 +238,6 @@ description: サポートされたすべての機能
 |**yank_line**|Yank lines|
 |**yank_with_motion**|Yank lines with motion|
 
-
-### System Command
-
-|ID|機能|
-|:---:|:---|
-|**system_command_comclear**|System Command comclear|
-|**system_command_command**|System Command command|
-|**system_command_delcommand**|System Command delcommand|
-|**system_command_map**|System Command map|
-|**system_command_mapclear**|System Command mapclear|
-|**system_command_noremap**|System Command noremap|
-|**system_command_set**|System Command set|
-|**system_command_source**|System Command source|
-|**system_command_unmap**|System Command unmap|
 
 <br>
 <br>

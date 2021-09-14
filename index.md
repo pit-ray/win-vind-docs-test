@@ -3,7 +3,6 @@ layout: full
 homepage: true
 disable_anchors: true
 title: Home - win-vind
-nav_id: home
 nav: Home
 icon: home
 translation_label: English
@@ -13,14 +12,13 @@ description: Vim Key Binder for Windows
 
 ## Description  
 
-**win-vind** is a UI toybox for Windows inspired by Vim and its plugins.  
+**win-vind** is a toolbox to operate Windows inspired by Vim and its plugins.  
 
 ### Features
 - Lightweight binding system
 - Vim-like mode management
 - GUI operation without mouse
 - Vim emulation everywhere
-- Resident command line
 - Low-level key mapping (e.g. Capslock -> Ctrl)
 - Running in user permission
 - Oneshot use for Vim or AHK (e.g. `$ win-vind -f easy_click_left`)
@@ -30,7 +28,7 @@ description: Vim Key Binder for Windows
 
 ##### Demo
 
-<img src="imgs/4xxdemo.gif?raw=true" title="Demo" width="624">  
+<img src="{{ site.url }}/imgs/4xxdemo.gif" title="Demo" width="624">  
 
 
 ##### Configuration File Example

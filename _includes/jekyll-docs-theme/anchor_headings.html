@@ -16,6 +16,17 @@
 {% assign bodyPrefix    = page.anchor_headings.bodyPrefix    | default: layout.anchor_headings.bodyPrefix    | default: '' %}
 {% assign bodySuffix    = page.anchor_headings.bodySuffix    | default: layout.anchor_headings.bodySuffix    | default: '' %}
 
+{% if page.version %}
+    {% if site.project.version > page.version %}
+        <p style="color: red;">This page is a translation for version {{ page.version }}.</p>
+        {% capture latest_url %}
+            {% assign dirs = page.url | split: "/" %}
+            {{ site.url }}{% for d in dirs %}{% if d != empty and d != page.translation %}/{{ d }}{% endif %}{% endfor %}
+        {% endcapture %}
+        <p style="color: red;">For the latest version {{ site.project.version }}, please refer to <a href="{{ latest_url }}">the original document.</a></p>
+    {% endif %}
+{% endif %}
+
 {% unless page.disable_anchors %}
     {% include jekyll-docs-theme/vendor/anchor_headings.html
          html=content

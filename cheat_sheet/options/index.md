@@ -4,7 +4,6 @@ title: Options and Parameters - win-vind
 nav: Options and Parameters
 disable_anchors: true
 show_in_menu: false
-description: parameters and useful extensions
 ---
 
 ## Parameter ID and Defaults 
@@ -18,9 +17,9 @@ description: parameters and useful extensions
 |`blockstylecaret_width`|num|15|Width of block style caret on solid mode|
 |`blockstylecaret`|bool|false|Block Style Caret|
 |`charcache`|bool|false|It is a very small cache for one character used by `x` or `X` commands. If it is enabled, the clipboard is opened per once typing. Therefore, you will get the same behavior as the original Vim, whereas the performance maybe drop a litte.|
-|`cmd_bgcolor`|str|323232|Font Background Color (# is optional)|
+|`cmd_bgcolor`|str|323232|Background color in the virtual command line. (# is optional)|
 |`cmd_fadeout`|num|5|Fade-out time in seconds for the virtual command line. If you want the command line to always be visible, make this value large enough.|
-|`cmd_fontcolor`|str|c8c8c8|Font color (# is optional)|
+|`cmd_fontcolor`|str|c8c8c8|Font color in the virtual command line. (# is optional)|
 |`cmd_fontextra`|num|1|Horizontal character spacing in virtual command line.|
 |`cmd_fontname`|str|Consolas|Font name for virtual command line. If an empty string is passed, the system font will be used.|
 |`cmd_fontsize`|num|23|Font size in virtual command line|
@@ -71,7 +70,7 @@ description: parameters and useful extensions
 
 ### Overview of stay range in `uiacachebuild`
 <p align="center">
-<img src="https://github.com/pit-ray/win-vind/blob/gh-pages/imgs/uiacachebuild_stay.png?raw=true" width=600>  
+<img src="{{ site.url }}/imgs/uiacachebuild_stay.png" width=600>  
 <p align="center">uiacachebuild_staybegin and uiacachebuild_stayend overview</p>
 </p>
 

@@ -1,11 +1,11 @@
 ---
 layout: notoc
 title: チートシート - win-vind
-nav_id: cheatsheet
 nav: チートシート
+icon: scroll
 translation: ja
 translators: pit-ray
-icon: scroll
+version: 4.2.0
 disable_anchors: true
 ---
 
@@ -22,7 +22,7 @@ disable_anchors: true
 
   <a href="keywords" class="site-masthead__button flex-max grid-link-item" id="cs-keywd">
     <i class="fas fa-book flex-max flex-fa"></i>
-    <p>設定キーワード</p>
+    <p>設定のキーワード</p>
   </a>
 
   <a href="defaults" class="site-masthead__button flex-max grid-link-item" id="cs-def">

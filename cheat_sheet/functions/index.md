@@ -5,7 +5,6 @@ nav: Functions
 show_in_menu: false
 disable_anchors: true
 parent: Cheat Sheet
-description: All supported functions list
 ---
 
 ### Mode
@@ -153,6 +152,21 @@ description: All supported functions list
 |**disable_targeting_of_dedicate_to_window**|Disable targeting (Dedicate to One Window)|
 |**enable_targeting_of_dedicate_to_window**|Enable targeting (Dedicate to One Window)|
 
+### System Command
+
+|ID|Feature|
+|:---:|:---|
+|**system_command_comclear**|System Command comclear|
+|**system_command_command**|System Command command|
+|**system_command_delcommand**|System Command delcommand|
+|**system_command_map**|System Command map|
+|**system_command_mapclear**|System Command mapclear|
+|**system_command_noremap**|System Command noremap|
+|**system_command_set**|System Command set|
+|**system_command_source**|System Command source|
+|**system_command_unmap**|System Command unmap|
+
+
 ### Vim Emulation
 
 <br>
@@ -221,20 +235,6 @@ description: All supported functions list
 |**yank_line**|Yank lines|
 |**yank_with_motion**|Yank lines with motion|
 
-
-### System Command
-
-|ID|Feature|
-|:---:|:---|
-|**system_command_comclear**|System Command comclear|
-|**system_command_command**|System Command command|
-|**system_command_delcommand**|System Command delcommand|
-|**system_command_map**|System Command map|
-|**system_command_mapclear**|System Command mapclear|
-|**system_command_noremap**|System Command noremap|
-|**system_command_set**|System Command set|
-|**system_command_source**|System Command source|
-|**system_command_unmap**|System Command unmap|
 
 <br>
 <br>
