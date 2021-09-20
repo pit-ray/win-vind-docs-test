@@ -3,6 +3,8 @@ remote_theme: allejo/jekyll-docs-theme@v1.0.0
 name: win-vind
 logo: imgs/win-vind-icon.png
 
+url: https://pit-ray.github.io/win-vind
+
 translations:
   - id:
     label: English
