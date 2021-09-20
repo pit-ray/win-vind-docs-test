@@ -3,6 +3,7 @@ layout: page
 disable_anchors: true
 title: よくある質問 - win-vind
 nav: よくある質問
+order: 3
 translation: ja
 translator: pit-ray
 version: 4.2.0

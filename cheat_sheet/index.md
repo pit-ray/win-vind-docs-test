@@ -3,6 +3,7 @@ layout: notoc
 title: Cheat Sheet - win-vind
 nav: Cheat Sheet
 icon: scroll
+order: 2
 disable_anchors: true
 ---
 

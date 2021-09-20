@@ -2,6 +2,7 @@
 layout: page
 title: 使い方 - win-vind
 nav: 使い方
+order: 0
 icon: map-signs
 translation: ja
 translators: pit-ray

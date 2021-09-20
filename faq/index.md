@@ -3,6 +3,7 @@ layout: page
 disable_anchors: true
 title: FAQ - win-vind
 nav: FAQ
+order: 3
 icon: question
 ---
 

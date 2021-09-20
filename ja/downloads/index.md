@@ -1,8 +1,8 @@
 ---
 layout: notoc
 title: ダウンロード - win-vind
-nav: downloads
 nav: ダウンロード
+order: 1
 icon: download
 translation: ja
 translator: pit-ray

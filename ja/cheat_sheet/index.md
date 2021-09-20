@@ -2,6 +2,7 @@
 layout: notoc
 title: チートシート - win-vind
 nav: チートシート
+order: 2
 icon: scroll
 translation: ja
 translators: pit-ray
